@@ -153,7 +153,7 @@ Alpha should be a float between 0 and 1."
           (s-base0     "#839496")
           ;; comments
           (s-base1     "#93a1a1")
-          (comments    "#a7b7b7")
+          (comments    "#94a8a8")
           ;; background highlight light
           (s-base2     "#eee8d5")
           ;; background light
