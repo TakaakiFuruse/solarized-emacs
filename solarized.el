@@ -152,7 +152,8 @@ Alpha should be a float between 0 and 1."
           (s-base00    "#657b83")
           (s-base0     "#839496")
           ;; comments
-          (s-base1     "#b0c4c4")
+          (s-base1     "#93a1a1")
+          (comments    "#a7b7b7")
           ;; background highlight light
           (s-base2     "#eee8d5")
           ;; background light
@@ -436,8 +437,8 @@ customize the resulting theme."
      `(font-lock-builtin-face ((,class (:foreground ,base0 :weight ,s-maybe-bold
                                                     :slant ,s-maybe-italic))))
      `(font-lock-comment-delimiter-face
-       ((,class (:foreground ,base01 :slant ,s-maybe-italic))))
-     `(font-lock-comment-face ((,class (:foreground ,base01))))
+       ((,class (:foreground ,comments :slant ,s-maybe-italic))))
+     `(font-lock-comment-face ((,class (:foreground ,comments))))
      `(font-lock-constant-face ((,class (:foreground ,blue :weight bold))))
      `(font-lock-doc-face ((,class (:foreground ,(if solarized-distinct-doc-face violet cyan)
                                                 :slant ,s-maybe-italic))))
