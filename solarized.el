@@ -49,7 +49,7 @@
 The theme has to be reloaded after changing anything in this group."
   :group 'faces)
 
-(defcustom solarized-distinct-fringe-background t
+(defcustom solarized-distinct-fringe-background nil
   "Make the fringe background different from the normal background color.
 Also affects `linum-mode' background."
   :type 'boolean
