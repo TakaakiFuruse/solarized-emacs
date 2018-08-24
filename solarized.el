@@ -49,13 +49,13 @@
 The theme has to be reloaded after changing anything in this group."
   :group 'faces)
 
-(defcustom solarized-distinct-fringe-background nil
+(defcustom solarized-distinct-fringe-background t
   "Make the fringe background different from the normal background color.
 Also affects `linum-mode' background."
   :type 'boolean
   :group 'solarized)
 
-(defcustom solarized-distinct-doc-face nil
+(defcustom solarized-distinct-doc-face t
   "Make `font-lock-doc-face' stand out more.
 Related discussion: https://github.com/bbatsov/solarized-emacs/issues/158"
   :type 'boolean
@@ -71,7 +71,7 @@ Related discussion: https://github.com/bbatsov/solarized-emacs/issues/158"
   :type 'boolean
   :group 'solarized)
 
-(defcustom solarized-use-more-italic nil
+(defcustom solarized-use-more-italic t
   "Use italic slant more often."
   :type 'boolean
   :group 'solarized)
