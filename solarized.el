@@ -55,7 +55,7 @@ Also affects `linum-mode' background."
   :type 'boolean
   :group 'solarized)
 
-(defcustom solarized-distinct-doc-face t
+(defcustom solarized-distinct-doc-face nil
   "Make `font-lock-doc-face' stand out more.
 Related discussion: https://github.com/bbatsov/solarized-emacs/issues/158"
   :type 'boolean
@@ -1388,7 +1388,7 @@ customize the resulting theme."
      `(linum ((,class (:weight thin :underline nil :foreground ,s-fringe-fg :background ,s-fringe-bg))))
      `(linum-relative-current-face ((,class (:inherit linum))))
 ;;;;; display-line-number-mode
-     `(line-number ((,class (:weight thin :underline nil :foreground ,s-fringe-fg :background ,s-fringe-bg))))
+     `(line-number ((,class (:weight thin :underline nil :foreground ,#99a9c4 :background ,s-fringe-bg))))
 ;;;;; lsp-ui
      `(lsp-ui-sideline-code-action ((,class (:foreground ,yellow :weight normal))))
 ;;;;; lusty-explorer
