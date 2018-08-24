@@ -165,7 +165,7 @@ Alpha should be a float between 0 and 1."
           (red       "#dc322f")
           (magenta   "#d33682")
           (violet    "#6c71c4")
-          (blue      "#268bd2")
+          (blue      "#2b9eef")
           (cyan      "#2aa198")
           (green     "#859900")
 
@@ -179,7 +179,7 @@ Alpha should be a float between 0 and 1."
           (red-l     "#FF6E64")
           (magenta-d "#93115C")
           (magenta-l "#F771AC")
-          (violet-d  "#3F4D91")
+          (violet-d  "#4e60b7")
           (violet-l  "#9EA0E5")
           (blue-d    "#00629D")
           (blue-l    "#69B7F0")
@@ -1106,7 +1106,7 @@ customize the resulting theme."
      `(helm-selection ((,class (:background ,base02 :underline t))))
      `(helm-selection-line ((,class (:background ,base02 :foreground ,base1
                                                  :underline nil))))
-     `(helm-separator ((,class (:foreground ,red))))
+     `(helm-separator ((,class (:foreground ,"#e1e8e1"))))
      `(helm-source-header ((,class (:background ,blue-lc :foreground ,base03
                                                 :underline nil))))
      `(helm-time-zone-current ((,class (:foreground ,green))))
